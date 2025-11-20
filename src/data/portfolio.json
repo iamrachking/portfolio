@@ -15,12 +15,18 @@
     "skills": [
       "Vue.js",
       "JavaScript",
+      "TypeScript",
       "PHP",
       "Laravel",
       "NestJS",
       "Flutter",
       "Tailwind CSS",
-      "Bootstrap"
+      "Bootstrap",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "GitHub",
+      "GitHub Actions"
     ]
   },
   "projects": [
@@ -29,7 +35,7 @@
       "title": "Tilda Recipes API",
       "description": "API backend Laravel pour application mobile de recettes de cuisine. Authentification Firebase, CRUD complet, système social (likes, favoris, commentaires) et gestion d'images.",
       "tech": ["Laravel", "PHP", "Firebase", "MySQL"],
-      "image": "🍳",
+      "image": "tilda-api.png",
       "link": "#",
       "github": "https://github.com/iamrachking/tilda_api_laravel"
     },
@@ -38,7 +44,7 @@
       "title": "Tilda Recipes",
       "description": "Application mobile Flutter de recettes de cuisine avec interface moderne et intuitive. Connectée à l'API Laravel pour une expérience complète.",
       "tech": ["Flutter", "Dart", "Firebase"],
-      "image": "📱",
+      "image": "tilda-recipes.png",
       "link": "#",
       "github": "https://github.com/iamrachking/tilda_recipes"
     },
@@ -47,7 +53,7 @@
       "title": "MySchoolManager",
       "description": "Plateforme complète de gestion d'établissements scolaires. Gestion des élèves, enseignants, inscriptions, notes avec interface moderne et intuitive.",
       "tech": ["Laravel", "PHP", "Bootstrap", "MySQL"],
-      "image": "🏫",
+      "image": "myschoolmanager.png",
       "link": "#",
       "github": "https://github.com/iamrachking/MySchoolManager"
     },
@@ -56,7 +62,7 @@
       "title": "CampusTimes Laravel",
       "description": "Application web de gestion universitaire. Contrôle des enseignants, masse horaire, planification des emplois du temps et consultation par les étudiants.",
       "tech": ["Laravel", "PHP", "Bootstrap", "MySQL"],
-      "image": "🎓",
+      "image": "campustimes-laravel.png",
       "link": "#",
       "github": "https://github.com/iamrachking/campustimes-laravel"
     }

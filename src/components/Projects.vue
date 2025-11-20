@@ -15,7 +15,24 @@
           @mouseleave="hoveredProject = null"
         >
           <div class="project-image">
-            <div class="project-emoji">{{ project.image }}</div>
+            <img 
+              v-if="project.image && project.image.startsWith('http')"
+              :src="project.image" 
+              :alt="project.title"
+              class="project-img"
+              loading="lazy"
+            />
+            <img 
+              v-else-if="project.image"
+              :src="`/images/projects/${project.image}`" 
+              :alt="project.title"
+              class="project-img"
+              loading="lazy"
+              @error="handleImageError"
+            />
+            <div v-else class="project-placeholder">
+              <span class="placeholder-icon">🚀</span>
+            </div>
             <div :class="['project-overlay', { active: hoveredProject === project.id }]">
               <div class="project-links">
                 <a :href="project.link" class="project-link" target="_blank" rel="noopener noreferrer">
@@ -62,10 +79,20 @@ export default {
   setup() {
     const hoveredProject = ref(null)
 
+    const handleImageError = (event) => {
+      // Si l'image ne charge pas, afficher un placeholder
+      event.target.style.display = 'none'
+      const placeholder = event.target.parentElement.querySelector('.project-placeholder')
+      if (placeholder) {
+        placeholder.style.display = 'flex'
+      }
+    }
+
     return {
       projects: portfolioData.projects,
       hoveredProject,
-      portfolioData
+      portfolioData,
+      handleImageError
     }
   }
 }
@@ -148,12 +175,33 @@ export default {
   overflow: hidden;
 }
 
-.project-emoji {
-  font-size: 4rem;
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.project-card:hover .project-emoji {
+.project-card:hover .project-img {
+  transform: scale(1.1);
+}
+
+.project-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-primary));
+}
+
+.placeholder-icon {
+  font-size: 4rem;
+  opacity: 0.5;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .placeholder-icon {
   transform: scale(1.2) rotate(5deg);
 }
 

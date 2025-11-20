@@ -22,9 +22,14 @@ Tableau de projets, chaque projet contient :
 - `title` : Titre du projet
 - `description` : Description du projet
 - `tech` : Tableau des technologies utilisées
-- `image` : Emoji ou icône (ex: "🛒", "📊")
+- `image` : Nom du fichier image (ex: "tilda-api.jpg") dans `/public/images/projects/` ou URL complète (ex: "https://example.com/image.jpg")
 - `link` : Lien vers le projet en ligne
 - `github` : Lien vers le code source GitHub
+
+**Pour ajouter une image :**
+1. Placez votre image dans le dossier `public/images/projects/`
+2. Utilisez le nom du fichier dans le JSON (ex: "mon-projet.jpg")
+3. Ou utilisez une URL complète si l'image est hébergée ailleurs
 
 ### Contact
 - `title` : Titre de la section
