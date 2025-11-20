@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "greeting": "Salut, je suis",
+    "firstName": "LAWINGNI",
+    "lastName": "Rachard",
+    "dynamicTexts": ["Développeur Fullstack", "Développeur Backend", "Développeur Frontend"],
+    "description": "Je conçois et développe des applications web et mobiles complètes, de l'architecture backend aux interfaces utilisateur modernes. Spécialisé en Vue.js, Laravel, PHP et Flutter."
+  },
+  "about": {
+    "intro": "Développeur Fullstack passionné par la création de solutions digitales performantes et évolutives.",
+    "description": [
+      "Spécialisé dans le développement d'applications web et mobiles, je maîtrise l'ensemble de la stack technique. Côté frontend, je développe des interfaces modernes avec Vue.js, JavaScript, Tailwind CSS et Bootstrap. Côté backend, je construis des APIs robustes avec PHP, Laravel et NestJS.",
+      "Je développe également des applications mobiles cross-platform avec Flutter. Mon approche privilégie la qualité du code, les performances et la maintenabilité pour livrer des solutions durables et évolutives."
+    ],
+    "skills": [
+      "Vue.js",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "NestJS",
+      "Flutter",
+      "Tailwind CSS",
+      "Bootstrap"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Tilda Recipes API",
+      "description": "API backend Laravel pour application mobile de recettes de cuisine. Authentification Firebase, CRUD complet, système social (likes, favoris, commentaires) et gestion d'images.",
+      "tech": ["Laravel", "PHP", "Firebase", "MySQL"],
+      "image": "🍳",
+      "link": "#",
+      "github": "https://github.com/iamrachking/tilda_api_laravel"
+    },
+    {
+      "id": 2,
+      "title": "Tilda Recipes",
+      "description": "Application mobile Flutter de recettes de cuisine avec interface moderne et intuitive. Connectée à l'API Laravel pour une expérience complète.",
+      "tech": ["Flutter", "Dart", "Firebase"],
+      "image": "📱",
+      "link": "#",
+      "github": "https://github.com/iamrachking/tilda_recipes"
+    },
+    {
+      "id": 3,
+      "title": "MySchoolManager",
+      "description": "Plateforme complète de gestion d'établissements scolaires. Gestion des élèves, enseignants, inscriptions, notes avec interface moderne et intuitive.",
+      "tech": ["Laravel", "PHP", "Bootstrap", "MySQL"],
+      "image": "🏫",
+      "link": "#",
+      "github": "https://github.com/iamrachking/MySchoolManager"
+    },
+    {
+      "id": 4,
+      "title": "CampusTimes Laravel",
+      "description": "Application web de gestion universitaire. Contrôle des enseignants, masse horaire, planification des emplois du temps et consultation par les étudiants.",
+      "tech": ["Laravel", "PHP", "Bootstrap", "MySQL"],
+      "image": "🎓",
+      "link": "#",
+      "github": "https://github.com/iamrachking/campustimes-laravel"
+    }
+  ],
+  "contact": {
+    "title": "Travaillons ensemble",
+    "description": "Vous avez un projet en tête ? Une idée à concrétiser ? N'hésitez pas à me contacter, je serais ravi d'échanger avec vous.",
+    "socialLinks": [
+      { "name": "GitHub", "icon": "↗", "url": "https://github.com/iamrachking/" },
+      { "name": "LinkedIn", "icon": "↗", "url": "https://www.linkedin.com/in/rachard-lawingni/" },
+      { "name": "Twitter", "icon": "↗", "url": "https://x.com/AbdoulRachard" },
+      { "name": "Email", "icon": "✉", "url": "mailto:abdoulrachard@gmail.com" }
+    ]
+  }
+}
+
