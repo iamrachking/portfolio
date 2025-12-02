@@ -53,7 +53,7 @@ export default {
       // Utilisation d'Iconify pour des icônes colorées
       const iconifyIcons = {
         'Laravel': 'https://api.iconify.design/logos/laravel.svg?color=%23FF2D20',
-        'NestJS': 'https://api.iconify.design/logos/nestjs.svg?color=%23E0234E',
+        'NodeJS': 'https://api.iconify.design/logos/nodejs.svg?color=%23E0234E',
         'Tailwind CSS': 'https://api.iconify.design/logos/tailwindcss-icon.svg?color=%2306B6D4',
         'Vue.js': 'https://api.iconify.design/logos/vue.svg?color=%234FC08D',
         'JavaScript': 'https://api.iconify.design/logos/javascript.svg?color=%23F7DF1E',
