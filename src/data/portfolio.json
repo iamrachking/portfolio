@@ -3,13 +3,13 @@
     "greeting": "Salut, je suis",
     "firstName": "LAWINGNI",
     "lastName": "Rachard",
-    "dynamicTexts": ["Développeur Fullstack", "Développeur Backend", "Développeur Frontend"],
+    "dynamicTexts": ["Développeur Fullstack"],
     "description": "Je conçois et développe des applications web et mobiles complètes, de l'architecture backend aux interfaces utilisateur modernes. Spécialisé en Vue.js, Laravel, PHP et Flutter."
   },
   "about": {
     "intro": "Développeur Fullstack passionné par la création de solutions digitales performantes et évolutives.",
     "description": [
-      "Spécialisé dans le développement d'applications web et mobiles, je maîtrise l'ensemble de la stack technique. Côté frontend, je développe des interfaces modernes avec Vue.js, JavaScript, Tailwind CSS et Bootstrap. Côté backend, je construis des APIs robustes avec PHP, Laravel et NestJS.",
+      "Spécialisé dans le développement d'applications web et mobiles, je maîtrise l'ensemble de la stack technique. Côté frontend, je développe des interfaces modernes avec Vue.js, JavaScript, Tailwind CSS et Bootstrap. Côté backend, je construis des APIs robustes avec PHP, Laravel et NodeJS.",
       "Je développe également des applications mobiles cross-platform avec Flutter. Mon approche privilégie la qualité du code, les performances et la maintenabilité pour livrer des solutions durables et évolutives."
     ],
     "skills": [
@@ -18,7 +18,7 @@
       "TypeScript",
       "PHP",
       "Laravel",
-      "NestJS",
+      "NodeJs",
       "Flutter",
       "Tailwind CSS",
       "Bootstrap",
