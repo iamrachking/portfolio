@@ -32,57 +32,66 @@
   "projects": [
     {
       "id": 1,
-      "title": "Tilda Recipes API",
-      "description": "API backend Laravel pour application mobile de recettes de cuisine. Authentification Firebase, CRUD complet, système social (likes, favoris, commentaires) et gestion d'images.",
-      "tech": ["Laravel", "PHP", "Firebase", "MySQL"],
-      "image": "tilda-api.png",
+      "title": "BMI SHOP",
+      "description": "Boutique mobile pièces auto & moto. Catalogue, panier, commande et paiement Mobile Money (FedaPay) dans une seule app. Application e-commerce Flutter pour parcourir le catalogue, gérer le panier, passer commande et payer via FedaPay sans quitter l'app.",
+      "tech": ["Flutter", "Dart", "GetX", "Dio", "Android", "iOS"],
+      "image": "bmi-shop.jpg",
       "link": "#",
-      "github": "https://github.com/iamrachking/tilda_api_laravel"
+      "github": "https://github.com/iamrachking/BMI_MOBILE_APP"
     },
     {
       "id": 2,
-      "title": "Tilda Recipes",
-      "description": "Application mobile Flutter de recettes de cuisine avec interface moderne et intuitive. Connectée à l'API Laravel pour une expérience complète.",
-      "tech": ["Flutter", "Dart", "Firebase"],
-      "image": "tilda-recipes.png",
-      "link": "#",
-      "github": "https://github.com/iamrachking/tilda_recipes"
+      "title": "AI4BMI — Backend Laravel",
+      "description": "Backend de la plateforme Bénin Moto Industry (BMI) : gestion des équipements industriels, maintenance, pannes et e-commerce. API pour l'app mobile BMI SHOP. Documentation Swagger disponible.",
+      "tech": ["Laravel", "PHP", "MySQL", "Vite"],
+      "image": "ai4bmi.png",
+      "link": "https://ai4bmi.cabinet-xaviertermeau.com",
+      "github": "https://github.com/iamrachking/BMI_BACKEND"
     },
     {
       "id": 3,
+      "title": "CHELSY Restaurant",
+      "description": "Application mobile restaurant — parcours complet : carte (catégories et plats), panier, commande et paiement (Stripe, Mobile Money, espèces) sans quitter l'app.",
+      "tech": ["Flutter", "Dart", "Mobile"],
+      "image": "chelsy-restaurant.jpg",
+      "link": "#",
+      "github": "https://github.com/iamrachking/chelsy_restaurant"
+    },
+    {
+      "id": 4,
+      "title": "CHELSY Restaurant — API & Back-office",
+      "description": "Backend REST et dashboard d'administration pour CHELSY Restaurant. API utilisée par l'app mobile (client, livreur). Gestion du restaurant : plats, commandes, paiements (Stripe, Mobile Money). Laravel Sanctum, Swagger, Tailwind, Firebase, DomPDF.",
+      "tech": ["Laravel", "PHP", "MySQL", "Sanctum", "Stripe", "Swagger", "Tailwind", "Vite", "Firebase", "DomPDF"],
+      "image": "chelsy-api.png",
+      "link": "https://chelsy-api.cabinet-xaviertermeau.com",
+      "github": "https://github.com/iamrachking/api-chelsy-apk"
+    },
+    {
+      "id": 5,
+      "title": "CampusConnect — Portail universitaire",
+      "description": "Portail interne universitaire : réservation de salles et de matériel, gestion de projets étudiants, équipes et livrables. Interface par rôle (Administrateur, Enseignant, Étudiant).",
+      "tech": ["Laravel", "PHP", "MySQL", "Vite"],
+      "image": "campusconnect.png",
+      "link": "#",
+      "github": "https://github.com/iamrachking/CampusConnect"
+    },
+    {
+      "id": 6,
       "title": "MySchoolManager",
-      "description": "Plateforme complète de gestion d'établissements scolaires. Gestion des élèves, enseignants, inscriptions, notes avec interface moderne et intuitive.",
+      "description": "Plateforme de gestion d'établissements scolaires développée en Laravel. Gestion des élèves, enseignants, inscriptions, notes et plus encore, avec une interface moderne et intuitive.",
       "tech": ["Laravel", "PHP", "Bootstrap", "MySQL"],
       "image": "myschoolmanager.png",
       "link": "#",
       "github": "https://github.com/iamrachking/MySchoolManager"
     },
     {
-      "id": 4,
+      "id": 7,
       "title": "CampusTimes Laravel",
-      "description": "Application web de gestion universitaire. Contrôle des enseignants, masse horaire, planification des emplois du temps et consultation par les étudiants.",
+      "description": "Application de gestion de la planification des emplois du temps. Contrôle des enseignants, masse horaire, planification et consultation par les étudiants.",
       "tech": ["Laravel", "PHP", "Bootstrap", "MySQL"],
       "image": "campustimes-laravel.png",
       "link": "#",
       "github": "https://github.com/iamrachking/campustimes-laravel"
-    },
-    {
-      "id": 5,
-      "title": "BMI SHOP",
-      "description": "Boutique mobile pièces auto & moto. Catalogue, panier, commande et paiement Mobile Money (FedaPay) dans une seule app. Application e-commerce Flutter pour parcourir le catalogue, gérer le panier, passer commande et payer via FedaPay sans quitter l'app.",
-      "tech": ["Flutter", "Dart", "GetX", "Dio"],
-      "image": "",
-      "link": "#",
-      "github": "https://github.com/iamrachking/BMI_MOBILE_APP"
-    },
-    {
-      "id": 6,
-      "title": "AI4BMI — Backend Laravel",
-      "description": "Backend de la plateforme Bénin Moto Industry (BMI) : gestion des équipements industriels, maintenance, pannes et e-commerce. API pour l'app mobile BMI SHOP.",
-      "tech": ["Laravel", "PHP", "MySQL", "Vite"],
-      "image": "",
-      "link": "https://ai4bmi.cabinet-xaviertermeau.com",
-      "github": "#"
     }
   ],
   "contact": {
