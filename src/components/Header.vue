@@ -133,14 +133,15 @@ export default {
 
 .logo {
   cursor: pointer;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-family: var(--font-display);
   background: linear-gradient(135deg, var(--text-primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  transition: transform 0.3s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
 .logo:hover {

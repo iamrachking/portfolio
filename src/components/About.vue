@@ -175,7 +175,8 @@ export default {
 .section-title {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -0.02em;
+  font-family: var(--font-display);
 }
 
 .about-content {

@@ -65,6 +65,24 @@
       "image": "campustimes-laravel.png",
       "link": "#",
       "github": "https://github.com/iamrachking/campustimes-laravel"
+    },
+    {
+      "id": 5,
+      "title": "BMI SHOP",
+      "description": "Boutique mobile pièces auto & moto. Catalogue, panier, commande et paiement Mobile Money (FedaPay) dans une seule app. Application e-commerce Flutter pour parcourir le catalogue, gérer le panier, passer commande et payer via FedaPay sans quitter l'app.",
+      "tech": ["Flutter", "Dart", "GetX", "Dio"],
+      "image": "",
+      "link": "#",
+      "github": "https://github.com/iamrachking/BMI_MOBILE_APP"
+    },
+    {
+      "id": 6,
+      "title": "AI4BMI — Backend Laravel",
+      "description": "Backend de la plateforme Bénin Moto Industry (BMI) : gestion des équipements industriels, maintenance, pannes et e-commerce. API pour l'app mobile BMI SHOP.",
+      "tech": ["Laravel", "PHP", "MySQL", "Vite"],
+      "image": "",
+      "link": "https://ai4bmi.cabinet-xaviertermeau.com",
+      "github": "#"
     }
   ],
   "contact": {

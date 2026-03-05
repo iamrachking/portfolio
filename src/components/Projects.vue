@@ -35,10 +35,10 @@
             </div>
             <div :class="['project-overlay', { active: hoveredProject === project.id }]">
               <div class="project-links">
-                <a :href="project.link" class="project-link" target="_blank" rel="noopener noreferrer">
+                <a v-if="project.link && project.link !== '#'" :href="project.link" class="project-link" target="_blank" rel="noopener noreferrer">
                   <span>Voir</span>
                 </a>
-                <a :href="project.github" class="project-link" target="_blank" rel="noopener noreferrer">
+                <a v-if="project.github && project.github !== '#'" :href="project.github" class="project-link" target="_blank" rel="noopener noreferrer">
                   <span>Code</span>
                 </a>
               </div>
@@ -127,48 +127,49 @@ export default {
 .section-title {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -0.02em;
+  font-family: var(--font-display);
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 640px) {
   .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 }
 
 .project-card {
-  background: var(--bg-primary);
+  background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
   border-color: var(--accent);
-  box-shadow: 0 20px 40px rgba(0, 255, 136, 0.1);
+  box-shadow: 0 24px 48px var(--accent-glow);
 }
 
 .project-image {
   position: relative;
   width: 100%;
-  height: 200px;
-  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-primary));
+  height: 180px;
+  background: linear-gradient(145deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,12 +193,12 @@ export default {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-primary));
+  background: linear-gradient(145deg, var(--bg-secondary), var(--bg-primary));
 }
 
 .placeholder-icon {
-  font-size: 4rem;
-  opacity: 0.5;
+  font-size: 3.5rem;
+  opacity: 0.4;
   transition: transform 0.3s ease;
 }
 

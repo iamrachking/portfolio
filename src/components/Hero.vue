@@ -157,37 +157,36 @@ export default {
 .gradient-orb {
   position: absolute;
   border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.3;
-  animation: float 20s infinite ease-in-out;
+  filter: blur(100px);
+  opacity: 0.25;
+  animation: float 22s infinite ease-in-out;
 }
 
 .orb-1 {
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, var(--accent), transparent);
-  top: -200px;
-  left: -200px;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, var(--accent), transparent 70%);
+  top: -220px;
+  left: -180px;
   animation-delay: 0s;
 }
 
 .orb-2 {
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, #0066ff, transparent);
-  bottom: -150px;
-  right: -150px;
-  animation-delay: 5s;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, #3b82f6, transparent 70%);
+  bottom: -120px;
+  right: -100px;
+  animation-delay: 4s;
 }
 
 .orb-3 {
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, #ff0066, transparent);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation-delay: 10s;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, #8b5cf6, transparent 70%);
+  top: 45%;
+  left: 55%;
+  animation-delay: 8s;
 }
 
 @keyframes float {
@@ -226,10 +225,11 @@ export default {
 
 .hero-name {
   font-size: clamp(3rem, 8vw, 5.5rem);
-  font-weight: 800;
-  line-height: 1.1;
+  font-weight: 700;
+  line-height: 1.05;
   margin-bottom: 1rem;
-  letter-spacing: -2px;
+  letter-spacing: -0.03em;
+  font-family: var(--font-display);
 }
 
 .name-first {
